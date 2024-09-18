@@ -1,0 +1,39 @@
+/* RESET global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+body {
+  font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
+  /* unidade de medida vw - view width */ 
+  width: 70vw;
+  max-width: 70vw;
+  /* unidade de medida vh - view height */
+  height: auto;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  margin: 0 auto;
+  color: #fefefe;
+}
+ 
+ 
